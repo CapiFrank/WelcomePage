@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> ANTRAXX </title>
+    <title> ANTRAXX 17 </title>
     
 	<!-- Sidebar Accordion CSS -->
 	<link rel="stylesheet" href="css/sidebar-accordion.css">
