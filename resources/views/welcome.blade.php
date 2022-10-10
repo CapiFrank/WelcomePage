@@ -12,66 +12,44 @@
   
   </head>
   <body>
- <header class="intro">
- <h1> jQuery Vertical Sidenav Accordeon Example </h1>
- <p> Vertical sidenav(sidebar) responsive with dropdown menus(accordion). Made in HTML5, CSS3, and JQuery.</p>
- <p> Written in HTML, CSS, JavaScript (jQuery)... </p>
- <div class="action">
- <a href="https://www.codehim.com/menu/accordion-sidebar-menu-css-jquery/" title="Back to download and tutorial page" class="btn back">Back to Tutorial</a>
- <a href="https://github.com/FelixAVeras/VerticalSidenav_responsive" title="View, Fork or Star on GitHub" class="btn github">View on GitHub</a>
- </div>
- </header>
-  
- <main>
-  <article>
-  <p>The following is the example of sidebar accordion. </p>
-  
-	<div class="contenedor-menu">
-		<!-- <a href="" class="btnMenu">Menu <i class="fa fa-bars"></i></a> -->
+ <!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-		<ul class="menu">
-			<li><a href="#">Element 1</a></li>
-			<li><a href="#">Element 2 <i class="fa fa-chevron-down"></i></a>
-				<ul>
-					<li><a href="#">Sub-Element #1</a></li>
-					<li><a href="#">Sub-Element #2</a></li>
-					<li><a href="#">Sub-Element #3</a></li>
-					<li><a href="#">Sub-Element #4</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Element 3</a></li>
-			<li><a href="#">Element 4 <i class="fa fa-chevron-down"></i></a>
-				<ul>
-					<li><a href="#">Sub-Element #1</a></li>
-					<li><a href="#">Sub-Element #2</a></li>
-					<li><a href="#">Sub-Element #3</a></li>
-					<li><a href="#">Sub-Element #4</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Element 5</a></li>
-			<li><a href="#">Element 6</a></li>
-			<li><a href="#">Element 7 <i class="fa fa-chevron-down"></i></a>
-				<ul>
-					<li><a href="#">Sub-Element #1</a></li>
-					<li><a href="#">Sub-Element #2</a></li>
-					<li><a href="#">Sub-Element #3</a></li>
-					<li><a href="#">Sub-Element #4</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Element 8</a></li>
-		</ul>
-	</div>
-  
-  
-  </article>
- </main>
+ <!-- Sidebar - Brand -->
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+ <div class="sidebar-brand-icon rotate-n-15">
+ <i class="fas fa-laugh-wink"></i>
+ </div>
+ <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+ </a>
+ <!-- Divider -->
+  <hr class="sidebar-divider my-0">
+
+ <!-- Nav Item - Dashboard -->
+ <li class="nav-item active">
+ <a class="nav-link" href="index.html">
+ <i class="fas fa-fw fa-tachometer-alt"></i>
+ <span>Dashboard</span></a>
+ </li>
+
+ <!-- Divider -->
+ <hr class="sidebar-divider">
+
+ <!-- Heading -->
+ <div class="sidebar-heading">
+    Interface
+ </div>
+
+ <!--BLA BLA BLA-->
  
-  <footer class="credit">Author: Felix Veras - Distributed By: <a title="Awesome web design code & scripts" href="https://www.codehim.com?source=demo-page" target="_blank">CodeHim</a></footer>
-  
-  <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<!-- Sidebar Accordion JS -->
-<script src="js/sidebar-accordion.js"></script>
-  
+ <!-- Divider -->
+  <hr class="sidebar-divider d-none d-md-block">
+
+ <!-- Sidebar Toggler (Sidebar) -->
+ <div class="text-center d-none d-md-inline">
+ <button class="rounded-circle border-0" id="sidebarToggle">  </button>
+ </div>
+
+ </ul>
   </body>
 </html>
